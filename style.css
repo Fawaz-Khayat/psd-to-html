@@ -24,7 +24,7 @@ body  {
   background: #F7F7F7;
 }
 
-.wrapper {
+.wrapper{
   width: 96%;
   max-width: 1200px;
   margin: 0 auto;
@@ -46,7 +46,7 @@ header::after {
   clear: both;
 }
 /***************/
-
+/********* header *********/
 header img#logo {
   margin: 0;
   width: 130px;
@@ -72,4 +72,13 @@ header nav li a {
 header nav li a.current {
   color: #1ABB9C;
 }
-
+/********* End of header *********/
+/********* banner ****************/
+#main-banner {
+  max-width: 1200px;
+  margin:auto;
+  overflow: hidden;
+}
+#main-banner img {
+  width: 100%;
+}
