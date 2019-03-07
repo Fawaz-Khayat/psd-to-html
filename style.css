@@ -40,7 +40,7 @@ header h1, header nav h2 {
   display: none;
 }
 /** CLEAR FIX **/
-header::after {
+.clear-fix::after {
   display: block;
   content: "";
   clear: both;
@@ -73,7 +73,7 @@ header nav li a.current {
   color: #1ABB9C;
 }
 /********* End of header *********/
-/********* banner ****************/
+/********* Main banner ***********/
 #main-banner {
   max-width: 1200px;
   margin:auto;
@@ -81,4 +81,16 @@ header nav li a.current {
 }
 #main-banner img {
   width: 100%;
+}
+/********* End of main banner *****/
+/********* section selling-points */
+#selling-points {
+  margin-top: 60px;
+}
+
+#selling-points li {
+  float: left;
+  width:23%;
+  padding:1%;
+  text-align: center;
 }
