@@ -133,6 +133,8 @@ header nav li a.current {
   font-size: 14px;
   margin-top: 5px;
 }
+/********* End fo section: latest-work *******/
+/********* Quote Div *******/
 #quote {
   margin-top: 30px;
   width: 60%;
@@ -143,3 +145,58 @@ header nav li a.current {
   line-height: 1.6em;
   text-align: center;
 }
+/********* End of quote Div *******/
+/********* Footer *******/
+footer {
+background-color: #E5E5E5;
+}
+
+footer ul {
+  float: left;
+  width: 23%;
+  padding: 1%;
+}
+
+footer ul:first-of-type {
+  padding-left: 0;
+}
+
+footer ul:last-of-type {
+  padding-right: 0;
+}
+
+footer li h4 {
+  color: #6C6C6C;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom:0;
+}
+footer li {
+  padding-bottom:8%;
+  font-size: 14px;
+}
+footer li, #copyright {
+  color:#CECECE;
+}
+li.location {
+  list-style: none outside url(images/location.png);
+}
+li.phone {
+  list-style: none outside url(images/Phone.png);
+}
+li.email {
+  list-style: none outside url(images/Message.png);
+}
+li.tw {
+  list-style: none outside url(images/tweet.png);
+}
+li.location, li.phone, li.email, li.tw {
+  margin-left: 18px;
+}
+
+#copyright {
+  float: left;
+  padding: 5% 0;
+  font-size: 14px;
+}
+/********* Footer *******/
