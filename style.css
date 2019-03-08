@@ -218,3 +218,11 @@ li.location, li.phone, li.email, li.tw {
     width:100%;
   }
 }
+
+@media screen and (max-width:768px){
+  #quote{
+    width:84%;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
